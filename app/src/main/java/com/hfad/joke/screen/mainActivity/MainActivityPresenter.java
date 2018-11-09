@@ -6,4 +6,7 @@ import com.arellomobile.mvp.MvpPresenter;
 @InjectViewState
 public class MainActivityPresenter extends MvpPresenter<MainActivityView>{
 
+    public void onClick() {
+        getViewState().runService();
+    }
 }

@@ -24,6 +24,9 @@
 
         <activity android:name=".screen.mainActivity.MainActivity"/>
 
+        <service
+            android:name=".service.delayedMessage.DelayedMessageService"
+            android:exported="false"></service>
     </application>
 
 </manifest>
