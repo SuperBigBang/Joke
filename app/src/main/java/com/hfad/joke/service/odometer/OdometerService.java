@@ -74,5 +74,7 @@ public class OdometerService extends Service {
         }
     }
 
-
+    public double getMiles() {
+        return distanceInMeters / 1609.344;
+    }
 }
