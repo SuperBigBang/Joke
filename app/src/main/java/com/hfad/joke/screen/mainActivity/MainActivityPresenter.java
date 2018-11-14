@@ -9,4 +9,8 @@ public class MainActivityPresenter extends MvpPresenter<MainActivityView>{
     public void onClick() {
         getViewState().runService();
     }
+
+    public void watchMileage() {
+        getViewState().showDistance();
+    }
 }

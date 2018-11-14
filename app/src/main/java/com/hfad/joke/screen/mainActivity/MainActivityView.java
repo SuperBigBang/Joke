@@ -8,4 +8,6 @@ import com.arellomobile.mvp.viewstate.strategy.StateStrategyType;
 public interface MainActivityView extends MvpView{
 
     void runService();
+
+    void showDistance();
 }
